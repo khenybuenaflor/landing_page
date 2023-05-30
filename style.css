@@ -1,0 +1,57 @@
+ body {
+     font-family: Arial, sans-serif;
+     margin: 0;
+     padding: 0;
+ }
+
+ /* Launch Screen */
+ .launch-screen {
+     background-image: url('./image/pizzasadni.jpg');
+     background-size: cover;
+     background-position: center;
+     color: #fff;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     height: 100vh;
+ }
+
+ .launch-screen h1 {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    font-size: 48px;
+    margin-bottom: 20px;
+ }
+
+ .launch-screen p {
+    position: absolute;
+    left: 10%;
+    font-size: 24px;
+    margin-bottom: 40px;
+ }
+
+ .launch-screen button {
+    position: absolute;
+    top: 60%;
+    left: 10%;
+     padding: 10px 20px;
+     font-size: 18px;
+     background-color: #fff;
+     color: #333;
+     border: none;
+     border-radius: 4px;
+     cursor: pointer;
+ }
+ .launch-screen .navigation {
+     position: absolute;
+     left: 5%;
+     top: 5%;
+ }
+
+ .launch-screen .navigation a {
+     margin: 0 10px;
+     color: #fff;
+     text-decoration: none;
+ }
